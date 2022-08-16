@@ -1,11 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-   
+.caixa-login{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
 
 }
-.caixa-login{
+#user{
+    margin: 10px;
     
+    
+
+    
+  
+}
+#user  ::-moz-focus-inner{
+    border: 2px solid black;
+    box-shadow: 2px;
+}
+#password{
+    margin: 10px;
+    border: 2px solid black;
 }
